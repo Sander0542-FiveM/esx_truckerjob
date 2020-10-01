@@ -88,7 +88,7 @@ function SpawnTruck()
   SetBlipColour(deliveryblip, 5)
   SetBlipAsShortRange(deliveryblip, true)
   BeginTextCommandSetBlipName("STRING")
-  AddTextComponentString("Delivery point")
+  AddTextComponentString("Bezorglocatie")
   EndTextCommandSetBlipName(deliveryblip)
   
   SetBlipRoute(deliveryblip, true) --Add the route to the blip
@@ -117,7 +117,7 @@ function FinishDelivery()
     --For delivery blip
     isDelivered = 1
   else
-	  TriggerEvent('esx:showNotification', "You have to use the trailer that was provided for you.")
+	  TriggerEvent('esx:showNotification', "Je moet de trailer gebruiken die aan je is toegewezen.")
   end
 end
 
@@ -142,15 +142,15 @@ end
 AddEventHandler('esx_truckerjob:hasEnteredMarker', function(zone)
   if actualZone == 'menutrucker' then
     CurrentAction     = 'trucker_menu'
-    CurrentActionMsg  = 'Press ~INPUT_CONTEXT~ to go on a mission'
+    CurrentActionMsg  = 'Druk op ~INPUT_CONTEXT~ om een missie te doen'
     CurrentActionData = {zone = zone}
   elseif actualZone == 'delivered' then
     CurrentAction     = 'delivered_menu'
-    CurrentActionMsg  = 'Press ~INPUT_CONTEXT~ for delivery'
+    CurrentActionMsg  = 'Druk op ~INPUT_CONTEXT~ voor bezorging'
     CurrentActionData = {zone = zone}
   elseif actualZone == 'abort' then
 	  CurrentAction     = 'abort_menu'
-    CurrentActionMsg  = 'Press ~INPUT_CONTEXT~ to abort mission'
+    CurrentActionMsg  = 'Druk op ~INPUT_CONTEXT~ om de missie te annuleren'
     CurrentActionData = {zone = zone}
   end
 end)
