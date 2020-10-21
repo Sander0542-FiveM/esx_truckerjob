@@ -83,7 +83,7 @@ Config.Delivery = {
 		Size  = {x = 3.0, y = 3.0, z = 1.0},
 		Color = {r = 204, g = 204, b = 0},
 		Type  = 1,
-		Payment  = 5500,
+		Payment  = 7000,
 	},
 	--Senora Freeway (close to YOUTOOL) 3.14KM
 	Delivery6 = {
@@ -176,5 +176,13 @@ Config.Delivery = {
 		Color = {r = 204, g = 204, b = 0},
 		Type  = 1,
 		Payment  = 5750,
+	},
+	--LSIA 7.67KM
+	Delivery16 = {
+		Pos      = {x = -1112.94, y = -3493.48, z = 13.94},
+		Size  = {x = 3.0, y = 3.0, z = 1.0},
+		Color = {r = 204, g = 204, b = 0},
+		Type  = 1,
+		Payment  = 7125
 	},
 }
