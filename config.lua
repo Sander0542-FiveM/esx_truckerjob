@@ -51,7 +51,7 @@ Config.Delivery = {
 		Size  = {x = 3.0, y = 3.0, z = 1.0},
 		Color = {r = 204, g = 204, b = 0},
 		Type  = 1,
-		Payment  = 1000,
+		Payment  = 130,
 	},
 	--Fort Zancudo (Route 68) 3.02KM
 	Delivery2 = {
@@ -59,7 +59,7 @@ Config.Delivery = {
 		Size  = {x = 3.0, y = 3.0, z = 1.0},
 		Color = {r = 204, g = 204, b = 0},
 		Type  = 1,
-		Payment  = 2250,
+		Payment  = 295,
 	},
 	--Close to Trevor 2.50KM
 	Delivery3 = {
@@ -67,7 +67,7 @@ Config.Delivery = {
 		Size  = {x = 3.0, y = 3.0, z = 1.0},
 		Color = {r = 204, g = 204, b = 0},
 		Type  = 1,
-		Payment  = 1875,
+		Payment  = 245,
 	},
 	--Senora Freeway (right side towards paleto) 5.91KM
 	Delivery4 = {
@@ -75,7 +75,7 @@ Config.Delivery = {
 		Size  = {x = 3.0, y = 3.0, z = 1.0},
 		Color = {r = 204, g = 204, b = 0},
 		Type  = 1,
-		Payment  = 4432,
+		Payment  = 575,
 	},
 	--Paleto Boulevard (At the paleto garage) 7.42KM
 	Delivery5 = {
@@ -83,7 +83,7 @@ Config.Delivery = {
 		Size  = {x = 3.0, y = 3.0, z = 1.0},
 		Color = {r = 204, g = 204, b = 0},
 		Type  = 1,
-		Payment  = 7000,
+		Payment  = 725,
 	},
 	--Senora Freeway (close to YOUTOOL) 3.14KM
 	Delivery6 = {
@@ -91,7 +91,7 @@ Config.Delivery = {
 		Size  = {x = 3.0, y = 3.0, z = 1.0},
 		Color = {r = 204, g = 204, b = 0},
 		Type  = 1,
-		Payment  = 2350,
+		Payment  = 305,
 	},
 	
 	--###Between Blaine County and Los Santos###
@@ -101,7 +101,7 @@ Config.Delivery = {
 		Size  = {x = 3.0, y = 3.0, z = 1.0},
 		Color = {r = 204, g = 204, b = 0},
 		Type  = 1,
-		Payment  = 3100,
+		Payment  = 365,
 	},
 	--Palomino Freeway (Right side of the map, that bigger center with multiple shops in the middle of the highway) 5.44KM
 	Delivery8 = {
@@ -109,7 +109,7 @@ Config.Delivery = {
 		Size  = {x = 3.0, y = 3.0, z = 1.0},
 		Color = {r = 204, g = 204, b = 0},
 		Type  = 1,
-		Payment  = 4500,
+		Payment  = 530,
 	},
 	
 	--###Los Santos###
@@ -119,7 +119,7 @@ Config.Delivery = {
 		Size  = {x = 3.0, y = 3.0, z = 1.0},
 		Color = {r = 204, g = 204, b = 0},
 		Type  = 1,
-		Payment  = 3250,
+		Payment  = 355,
 	},
 	--Mirror Park 4.24KM
 	Delivery10 = {
@@ -127,7 +127,7 @@ Config.Delivery = {
 		Size  = {x = 3.0, y = 3.0, z = 1.0},
 		Color = {r = 204, g = 204, b = 0},
 		Type  = 1,
-		Payment  = 3750,
+		Payment  = 415,
 	},
 	--Close to LSPD 4.94KM
 	Delivery11 = {
@@ -135,7 +135,7 @@ Config.Delivery = {
 		Size  = {x = 3.0, y = 3.0, z = 1.0},
 		Color = {r = 204, g = 204, b = 0},
 		Type  = 1,
-		Payment  = 4500,
+		Payment  = 485,
 	},
 	--Del Perro Freeway (Close to the beach, leaving city) 5.76KM
 	Delivery12 = {
@@ -151,7 +151,7 @@ Config.Delivery = {
 		Size  = {x = 3.0, y = 3.0, z = 1.0},
 		Color = {r = 204, g = 204, b = 0},
 		Type  = 1,
-		Payment  = 5250,
+		Payment  = 560,
 	},
 	--Calais Ave & Innocence Blvd (Close to heli pad and dock) 5.78KM
 	Delivery14 = {
@@ -159,7 +159,7 @@ Config.Delivery = {
 		Size  = {x = 3.0, y = 3.0, z = 1.0},
 		Color = {r = 204, g = 204, b = 0},
 		Type  = 1,
-		Payment  = 5675,
+		Payment  = 565,
 	},
 	--Strawberry Ave (Close to Vanilla Unicorn and Legion Square) 5.31KM
 	Delivery15 = {
@@ -167,7 +167,7 @@ Config.Delivery = {
 		Size  = {x = 3.0, y = 3.0, z = 1.0},
 		Color = {r = 204, g = 204, b = 0},
 		Type  = 1,
-		Payment  = 5250,
+		Payment  = 520,
 	},
 	--Groove Street 5.71KM
 	Delivery16 = {
@@ -175,7 +175,7 @@ Config.Delivery = {
 		Size  = {x = 3.0, y = 3.0, z = 1.0},
 		Color = {r = 204, g = 204, b = 0},
 		Type  = 1,
-		Payment  = 5750,
+		Payment  = 555,
 	},
 	--LSIA 7.67KM
 	Delivery16 = {
@@ -183,6 +183,6 @@ Config.Delivery = {
 		Size  = {x = 3.0, y = 3.0, z = 1.0},
 		Color = {r = 204, g = 204, b = 0},
 		Type  = 1,
-		Payment  = 7125
+		Payment  = 750
 	},
 }
