@@ -179,7 +179,7 @@ Config.Delivery = {
 	},
 	--LSIA 7.67KM
 	Delivery16 = {
-		Pos      = {x = -1112.94, y = -3493.48, z = 13.94},
+		Pos      = {x = -1112.94, y = -3493.48, z = 12.94},
 		Size  = {x = 3.0, y = 3.0, z = 1.0},
 		Color = {r = 204, g = 204, b = 0},
 		Type  = 1,
